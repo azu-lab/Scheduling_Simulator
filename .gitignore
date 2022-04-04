@@ -130,7 +130,6 @@ dmypy.json
 
 # Add
 .vscode/
-DAGs/
 test.png
 test.json
 test.html
@@ -139,4 +138,3 @@ result/
 debug.py
 eval.bash
 figure/
-*.dot
