@@ -17,7 +17,7 @@ function show_usage () {
 
 
 ### initialize option variables
-ROOT_DAG_DIR="${PWD}/DAGs"
+ROOT_DAG_DIR="${PWD}/../DAGs"
 ALGORITHM=""
 NUM_OF_CLUSTERS=0
 NUM_OF_CORES=0
