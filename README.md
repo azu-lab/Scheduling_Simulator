@@ -21,7 +21,7 @@ The supported [Algorithm Name] are as follows.
 - HEFT
 - HTSTC
 - QL-HEFT
-- CQGA-HEFT (Proposed algorithm)
+- CQGA-HEFT
 
 Note that these commands are scheduled for many DAGs and will take time to complete.
 
