@@ -42,11 +42,11 @@ bash eval_change_inout_ratio.bash --num_of_clusters 2 --num_of_cores 16 --write_
 ### Evaluation of varying the number of tasks in a DAG
 ```
 cd ./src/evaluation
-bash eval_change_num_of_tasks.bash --num_of_clusters 2 --num_of_cores 16 --inout_ratio 3.0 --write_makespan --write_duration --root_dag_dir ./DAGs -a [Algorithm Name]
+bash eval_change_num_of_tasks.bash --num_of_clusters 2 --num_of_cores 16 --inout_ratio 3.0 --write_makespan --write_duration --root_dag_dir ./../DAGs -a [Algorithm Name]
 ```
 
 # Results
-The result of executing the above command is stored in `Scheduling_Simulator/src/result/`.
+The result of executing the above command is stored in `Scheduling_Simulator/src/evaluation/result/`.
 Once the command has been completed, the following commands can be used to create a box-and-whisker diagram.
 
 ### Visualization results of varying the CCR values
